@@ -1,0 +1,11 @@
+<%= form_tag(gossips_path, :method => "get", id: "search-form") do %>
+  <%= text_field_tag :search, params[:search], placeholder: "Search" %>
+  <%= submit_tag "Search", :name => nil %>
+<% end %>
+
+<br/>
+
+<% @gossips.each do |i| %>
+ <%= i.heading.html_safe %> | <%= i.description.html_safe %> | <%= i.author.html_safe %> | <%= image_tag i.image.url(:medium) %>
+ <br/>
+<% end %>

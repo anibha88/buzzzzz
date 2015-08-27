@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: newsblog_development
+  username: postgres
+  pool: 5
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: newsblog_testing
+  username: postgres
+  pool: 5
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  port: 5432
+  database: newsblog_production
+  username: postgres
+  pool: 5
+  password:

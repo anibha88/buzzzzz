@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tip_name: MyString
+  tip_description: MyText
+  tip_author: MyString
+  image: MyString
+  tip_related_to: MyString
+
+two:
+  tip_name: MyString
+  tip_description: MyText
+  tip_author: MyString
+  image: MyString
+  tip_related_to: MyString
